@@ -154,12 +154,25 @@ span.bottom {
 
 .stars {
     justify-content: center;
-
+    margin-bottom: 40px;
 }
 
 .mac {
-    width: 50px;
+    width: 150px;
     height: 50px;
     background-color: var(--bg-colour_button);
-    align-self: center;
+    border-radius: 2rem;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    color: var(--bg-colour_fonth3);
+}
+
+h3 {
+    font-size: 30px;
+    padding-left: 50px;
+}
+
+h4 {
+    align-items: center;
 }
