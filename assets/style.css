@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gg sans', sans-serif;
+}
+
+:root {
+    --bg-colour_header: rgb(49, 97, 224);
+    --bg-colour_footer: rgb(35, 39, 42);
+    --bg-colour_fonth3: rgb(255, 255, 255);
+}
+
+header {
+    background-color: var(--bg-colour_header);
+    width: 100%;
+    height: 100px;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    max-width: 100%;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.logo,
+.login {
+    width: 20%;
+    height: 50%;
+}
+
+
+p {
+    width: 60%;
+    text-align: center;
+    color: var(--bg-colour_fonth3);
+    font-size: 1rem;
+    margin: 0 2rem;
+    display: inline;
+}
+
+.login {
+    border-radius: 10rem;
+    background-color: var(--bg-colour_fonth3);
+    width: 4rem;
+    height: 2rem;
+    text-align: center
+}
